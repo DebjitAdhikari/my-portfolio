@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+h1{
+    margin-bottom: 0;
+}
+
+.logo>img{
+    height: 60px;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    top:0%;
+}
+button{
+    color:white;
+    background-color: black;
+    border:2px solid royalblue;
+    border-radius: 15%;
+    height: 25px;
+}
+button:hover{
+    color:white;
+    background:linear-gradient(to right,violet,blue);
+    height:20px;
+}
+.intro{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.intro>h1{
+    font-family: 'PT Serif', serif;
+    font-size:50px;
+}
+.intro>p{
+    font-size: 30px;
+    font-weight: 2;
+}
+#nav{
+    background-image: url("./image/background2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 60vh;
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color:white;
+    height: 80vh;
+}
+.details>img{
+    height: 150px;
+    border-radius: 50%;
+}
+.details p{
+    max-width: 600px;
+    font-size:20px
+}
+#body{
+    color:white
+}
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+#body{
+    background-color: #61677A70;
+}
+ .details>h2{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;;
+}
+h2{
+    font-family: serif;
+    margin: 0;
+}
+#body p{
+    font-size: 20px;
+}
+.education h3{
+    font-size: 20px;
+    margin-bottom: 0%;
+    font-family:'PT Serif', serif;
+    
+}
+.education p{
+    font-size: 20px;
+}
+.sec{
+    flex-basis: 300px;
+}
+.high{
+    flex-basis: 300px;
+    justify-content: center;
+
+}
+.grad{
+    flex-basis: 300px;
+    justify-content: center;
+}
+#interested{
+    background-color: #61677A70;
+    color: white
+}
+.skills img{
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 25%;
+
+}
+.skills{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.skill{
+    min-width: 200px;
+    max-width: 240px;
+}
+.skill h3{
+    font-family:'PT Serif', serif;    ;
+}
+footer{
+    background-color:#072541;
+    color:white;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+a{
+    color:white;
+}
+.handle img{
+height: 20px;
+border-radius: 40%;
+}
+.contact{
+display: flex;
+flex-direction: column;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
